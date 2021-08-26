@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Tip-calc-react/static/css/main.dc4795b7.chunk.css",
+    "main.js": "/Tip-calc-react/static/js/main.028656e2.chunk.js",
+    "main.js.map": "/Tip-calc-react/static/js/main.028656e2.chunk.js.map",
+    "runtime-main.js": "/Tip-calc-react/static/js/runtime-main.75d22eca.js",
+    "runtime-main.js.map": "/Tip-calc-react/static/js/runtime-main.75d22eca.js.map",
+    "static/js/2.a94ab445.chunk.js": "/Tip-calc-react/static/js/2.a94ab445.chunk.js",
+    "static/js/2.a94ab445.chunk.js.map": "/Tip-calc-react/static/js/2.a94ab445.chunk.js.map",
+    "index.html": "/Tip-calc-react/index.html",
+    "static/css/main.dc4795b7.chunk.css.map": "/Tip-calc-react/static/css/main.dc4795b7.chunk.css.map",
+    "static/js/2.a94ab445.chunk.js.LICENSE.txt": "/Tip-calc-react/static/js/2.a94ab445.chunk.js.LICENSE.txt",
+    "static/media/icon-person.65bfd204.svg": "/Tip-calc-react/static/media/icon-person.65bfd204.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.75d22eca.js",
+    "static/js/2.a94ab445.chunk.js",
+    "static/css/main.dc4795b7.chunk.css",
+    "static/js/main.028656e2.chunk.js"
+  ]
+}
