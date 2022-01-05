@@ -1,0 +1,41 @@
+.t-button {
+    border-radius: 6px;
+    font-size: 1.4em;
+    padding: 10px 16px;
+    text-align: center;
+}
+
+.t-button:hover:not(.cus) {
+    background-color: hsl(172, 72%, 70%);
+    color: hsl(183, 100%, 15%);
+    cursor: pointer;
+}
+
+.cus:hover {
+    color: white;
+}
+
+.reg {
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+}
+
+.cus {
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 6px;
+    color: hsl(186, 14%, 43%);
+    font-size: 1.4em;
+}
+
+.cus input {
+    font-size: 1em;
+    height: 100%;
+    margin: 0;
+    padding-right: 14px;
+    text-indent: -66px;
+    width: 90%;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    display: none;
+}

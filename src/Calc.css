@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+/**/
+
+.main-container {
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Space Mono', monospace;
+    padding: 1em 2em;
+    width: 375px;
+}
+
+.main-container h2 {
+    color: hsl(186, 14%, 43%);
+    font-size: 1rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.form-input {
+    flex-direction: column;
+    font-weight: 700;
+    text-align: left;
+}
+
+.form-input label {
+    color: hsl(186, 14%, 43%);
+}
+
+.form-input input {
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+    border-radius: 4px;
+    color: hsl(183, 100%, 15%);
+    font-family: 'Space Mono', monospace;
+    font-size: 1.4em;
+    font-weight: 700;
+    height: 2em;
+    margin: .4em 0;
+    padding-right: 14px;
+    text-align: right;
+}
+
+.form-input input:focus {
+    outline-color: hsl(172, 67%, 45%);
+}
+
+.brown-outline:focus {
+    outline-color: hsl(27, 61%, 56%) !important;
+}
+
+.zero-text {
+    color: hsl(27, 61%, 56%);
+    margin-left: 22%;
+    opacity: 0;
+}
+
+.show {
+    opacity: 1 !important;
+}
+
+.icon {
+    color: hsl(184, 14%, 56%);
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 0 16px;
+    position: absolute;
+}
+
+.icon.p {
+    margin-top: 12px;
+}
+
+.tip-grid {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1.8em;
+}
+
+@media (min-width: 1200px) {
+    .main-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 75%;
+    }
+    .f-width {
+        display: flex;
+        flex-direction: column;
+        height: 97%;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .make-row {
+        height: 100%;
+        margin-left: 6em;
+        width: 50%;
+    }
+    .tip-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .zero-text {
+        margin-left: 33%;
+    }
+}

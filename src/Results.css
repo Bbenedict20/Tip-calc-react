@@ -1,0 +1,77 @@
+.result-grid {
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 16px;
+    display: grid;
+    grid-template-areas: "box1 result1" "box2 result2" "button button";
+    margin: 1.2em 0;
+    padding: 1.4em 2em;
+}
+
+.result-grid h2 {
+    color: hsl(172, 67%, 45%);
+    font-size: 2em;
+}
+
+.result-grid h3 {
+    color: hsl(189, 41%, 97%);
+    font-size: 1em;
+    margin-bottom: 4px;
+}
+
+.result-grid p {
+    color: hsla(189, 41%, 97%, .5);
+    font-size: .8em;
+    margin-top: 2px;
+}
+
+.result-grid button {
+    background-color: hsl(172, 67%, 45%);
+    border: none;
+    border-radius: 6px;
+    color: hsl(183, 100%, 15%);
+    font-family: 'Space Mono', monospace;
+    font-size: 1.2em;
+    font-weight: 700;
+    height: 2.5em;
+    letter-spacing: 0;
+}
+
+.result-grid button:hover {
+    background-color: hsl(172, 72%, 70%);
+    cursor: pointer;
+}
+
+.a {
+    grid-area: box1;
+}
+
+.b {
+    grid-area: box2;
+}
+
+.c {
+    grid-area: result1;
+    text-align: right;
+}
+
+.d {
+    grid-area: result2;
+    text-align: right;
+}
+
+.no-top {
+    margin-top: .4em;
+}
+
+.e {
+    grid-area: button;
+}
+
+@media (min-width: 1200px) {
+    .result-grid {
+        padding-top: 3em;
+    }
+    .e {
+        margin-top: 6em;
+    }
+}
